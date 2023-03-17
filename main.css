@@ -21,6 +21,8 @@ h2 {
     padding-top: 100px;
 }
 
+/* Header */
+
 .header_schedule,
 .header_reminder,
 .header_about {
@@ -366,7 +368,7 @@ svg{
 }
 
 
-/* hiking */
+/* Наши походы */
 .swiper-slide img{
     display: none;
 }
@@ -402,8 +404,9 @@ svg{
 .hiking_img > img {
     padding-bottom: 20px;
 }
+/* ----------  */
 
-/* advantages */
+/* Наши преимущества */
 
 .advantages_block {
     display: flex;
@@ -420,6 +423,217 @@ svg{
     max-width: 170px;
     text-align: center;
 }
+/* ------------------  */
+
+/* Крым */
+     /* -----------------   */
+
+ /* Индивидуальные туры  */
+ .Individual_tours {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Individual_tours_img_top {
+    display: flex;
+    margin-bottom: 17px;
+}
+.Individual_tours_img_top img {
+    margin-right: 20px;
+}
+.Individual_tours_img_top img:last-child {
+    margin: 0;
+}
+.Individual_tours_content {
+    margin-left: 30px;
+}
+.Individual_tours_title {
+    font-size: 46px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #132c33;
+    margin-bottom: 20px;
+}
+.Individual_tours_desc {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #132c33;
+    text-align: justify;
+    margin-bottom: 22px;
+}
+.Individual_tours_text_img {
+    text-align: center;
+    margin-bottom: 22px;
+}
+.Individual_tours_text_bottom {
+    font-family: 'HelveticaNeueCyr', sans-serif;
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #132c33;
+    margin-bottom: 20px;
+}
+.Individual_tours_contacts {
+    display: flex;
+    align-items: center;
+}
+.Individual_tours_icon {
+    padding: 0 20px 0 20px;
+    background-color: #132c33;
+    display: flex;
+    border-radius: 15px;
+}
+.Individual_tours_icon_vk {
+    padding: 9px 5px 9px 5px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 20px 20px 0;
+}
+.Individual_tours_icon_tl {
+    padding: 9px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 20px 20px 0;
+}
+.Individual_tours_icon_vk:hover,
+.Individual_tours_icon_tl:hover {
+    background-color: #ffca3c;
+}
+.Individual_tours_icon_vk:active,
+.Individual_tours_icon_tl:active {
+    background-color: #e79814;
+}
+.Individual_tours_icon_button {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 11px 30px 11px 30px;
+    border-radius: 7px;
+    background-color: #fbac1e;
+    border: none;
+    margin: 12px 0 12px 0;
+    cursor: pointer;
+}
+.Individual_tours_icon_button:hover {
+    background-color: #ffca3c;
+}
+.Individual_tours_icon_button:active {
+    background-color: #e79814;
+}
+.Individual_tours_phones {
+    margin-left: 30px;
+}
+.Individual_tours_phones_1 {
+    display: flex;
+    margin-bottom: 15px;
+}
+.Individual_tours_phones_1 img{
+    width: 18px;
+    height: 18px;
+}
+.Individual_tours_phones_1:last-child {
+    margin: 0;
+}
+.Individual_tours_phones_1 p {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #000000;
+    margin-left: 13px;
+}
+     /* -----------------------------------  --> */
+
+ /* Кавказ   */
+     /* ---------------------------------------   */
+
+ /* Наши лучшие фотографии  */
+ .photo_title {
+    text-align: center;
+    font-size: 46px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #132c33;
+    margin-bottom: 43px;
+}
+.photo_img_block {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.photo_img {
+    position: relative;
+}
+.photo_img_wrap {
+    width: 100%;
+    height: auto;
+    max-width: 630px;
+}
+.photo_img_inner {
+    position: absolute;
+    bottom: 20px;
+    right: -10px;
+    width: 60%;
+    height: auto;
+    max-width: 300px;
+}
+.swiper-slide_img {
+    display: none;
+}
+.photo_subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 113px;
+}
+.photo_subtitle a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+.photo_subtitle span {
+    color: rgba(0, 99, 177, 1);
+}
+.photo_subtitle img {
+    margin-left: 15px;
+}
+.photo_subtitle_link {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+    display: none;
+}
+.photo_subtitle_link_vk {
+    background-color: #0077ff;
+    padding: 9px 5px 9px 5px;
+    border: none;
+    border-radius: 10px;
+}
+.photo_subtitle_link_vk:hover {
+    background-color: #132c33;
+}
+.photo_subtitle_link_vk:active {
+    background-color: #e79814;
+}
+     /* -------------------------------------   */
+
+ /* Отзывы   */
+     /* --------------------------------------   */
+
+ /* footer   */
+     /* ------------------------------  */
 
 
 
@@ -467,6 +681,27 @@ svg{
     }
     .modal_form{
         margin-top: 90px;
+    }
+    .Individual_tours {
+        display: block;
+        max-width: 657px;
+        margin: 0 auto;
+    }
+    .Individual_tours_img_block {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .Individual_tours_content {
+        margin: 0;
+    }
+    .Individual_tours_img_bottom {
+        justify-content: center;
+    }
+    .photo_img_block {
+        padding-left: 30px;
+        padding-right: 30px;
+        gap: 20px;
     }
 }
 @media (max-width: 1100px){
@@ -559,6 +794,15 @@ svg{
         margin-right: 150px;
         margin-bottom: 14px;
     }
+    .photo_subtitle a {
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .photo_img_inner {
+        right: -7px;
+    }
 
     /* .burger span.active:before {
         content: "";
@@ -590,10 +834,10 @@ svg{
       justify-content: center;
       align-items: center;
     }
-    .swiper-slide img {
+    .hiking_slider img {
       display: block;
       width: 100%;
-      height: 100%;
+      /* height: 100%; */
       object-fit: cover;
       gap: 50px;
       padding-top: 33px;
@@ -608,6 +852,79 @@ svg{
         max-width: 140px;
         text-align: center;
         padding-bottom: 20px;
+    }
+    .Individual_tours_img_block {
+        display: none;
+    }
+    .Individual_tours_title {
+        font-size: 28px;
+        line-height: 35px;
+        font-weight: 600;
+    }
+    .Individual_tours_contacts {
+        display: block;
+    }
+    .Individual_tours_icon {
+        margin-bottom: 15px;
+        width: 282px;
+    }
+    .Individual_tours_phones {
+        margin: 0;
+    }
+    .photo_img_block {
+        margin-bottom: 5px;
+    }
+    .photo_img {
+        display: none;
+    }
+    .photo_img_gallery_clide img {
+        display: block;
+    }
+    .photo_img_wrap_gallery {
+        position: relative;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .photo_img_inner_gallery {
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        width: 60%;
+        height: auto;
+        max-width: 300px;
+    }
+    .photo_subtitle {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .photo_img_inner_gallery {
+        right: 25px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .photo_subtitle {
+        font-size: 18px;
+    }
+    .photo_subtitle a {
+        width: 100%;
+    }
+    .photo_subtitle_link {
+        display: block;
+    }
+    .photo_img_inner_gallery {
+        right: 21px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .photo_img_inner_gallery {
+        right: 17px;
     }
 }
 

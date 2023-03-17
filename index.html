@@ -19,6 +19,9 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </head>
   <body>
+
+    <!-- Header  -->
+
     <header class="header">
       <div class="container">
         <div class="header_burger">
@@ -138,6 +141,9 @@
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 185"><path fill="#ffffff" fill-opacity="1" d="M0,96L120,117.3C240,139,480,181,720,181.3C960,181,1200,139,1320,117.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
     </header>
+    <!-- ---------------------->
+
+    <!-- Наши походы  -->
     <section class="hiking_advantages">
       <div class="container">
         <h2>Наши походы</h2>
@@ -164,13 +170,16 @@
         </div>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="img/Веселые.png" alt="Веселые"></div>
-            <div class="swiper-slide"><img src="img/Безопасные.png" alt="Безопасные"></div>
-            <div class="swiper-slide"><img src="img/Вкусные.png" alt="Вкусные"></div>
-            <div class="swiper-slide"><img src="img/Круглогодичные.png" alt="Круглогодичные"></div>
+            <div class="swiper-slide hiking_slider"><img src="img/Веселые.png" alt="Веселые"></div>
+            <div class="swiper-slide hiking_slider"><img src="img/Безопасные.png" alt="Безопасные"></div>
+            <div class="swiper-slide hiking_slider"><img src="img/Вкусные.png" alt="Вкусные"></div>
+            <div class="swiper-slide hiking_slider"><img src="img/Круглогодичные.png" alt="Круглогодичные"></div>
           </div>
         </div>
       </div>
+      <!-- -------------------- -->
+
+      <!-- Наши преимущества -->
       <div class="container">
         <h2>Наши преимущества</h2>
         <div class="advantages_block">
@@ -201,7 +210,152 @@
         </div>
       </div>
     </section>
+    <!-- --------------  -->
 
+    <!-- Крым  -->
+    <!-- -----------------  -->
+
+    <!-- Индивидуальные туры  -->
+    <section class="tours">
+      <div class="container">
+          <div class="Individual_tours">
+              <div class="Individual_tours_img_block">
+                  <div class="Individual_tours_img_top">
+                  <img src="img/Фото 1.png" alt="Фото из похода ">
+                  <img src="img/Фото 2.png" alt="Фото из похода ">
+              </div>
+              <div class="Individual_tours_img_bottom">
+                  <img src="img/3.png" alt="Фото из похода ">
+              </div>
+              </div>
+              <div class="Individual_tours_content">
+                  <div class="Individual_tours_text">
+                      <div class="Individual_tours_title">Индивидуальные туры</div>
+                      <div class="Individual_tours_desc">Если Вы ограничены во времени или хотите посетить определенное место с семьей или лично, то у нас есть услуга индивидуальных туров, где Вы сами назначаете Гиду время и место. Отправьте заявку на вашего личного гида сейчас, потому что в любую следующую минуту он может быть в походе.</div>
+                      <div class="Individual_tours_text_img" >
+                      <img src="img/4.png" alt="Фото">
+                  </div>
+                  <div class="Individual_tours_text_bottom">Так же Вы можете найти нас в Вконтакте или в Телеграме.</div>
+                  </div>
+                  <div class="Individual_tours_contacts">
+                      <div class="Individual_tours_icon">
+                          <a href=""><img class="Individual_tours_icon_vk" src="img/vk.svg" alt=""></a>
+                          <a href=""><img class="Individual_tours_icon_tl" src="img/tl.svg" alt=""></a>
+                          <button class="Individual_tours_icon_button" type="submit" onclick="show()">Заявка</button>
+                      </div>
+                      <div class="Individual_tours_phones">
+                          <div class="Individual_tours_phones_1">
+                          <img src="img/tel.png" alt="">
+                          <p>+7(978) 798-58-72</p>
+                          </div>
+                          <div class="Individual_tours_phones_1">
+                              <img src="img/tel.png" alt="">
+                              <p>+7(978) 529-35-87</p>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!-- -----------------------------------  -->
+
+    <!-- Кавказ  -->
+    <!-- ---------------------------------------  -->
+
+    <!-- Наши лучшие фотографии  -->
+    <section class="photo">
+      <div class="container">
+          <div class="photo_title">Наши лучшие фотографии</div>
+          <div class="photo_img_block">
+          <div class="photo_img">
+              <img class="photo_img_wrap" src="img/Ледник Майли.png" alt="">
+              <img class="photo_img_inner" src="img/Ледник Майли(текст).png" alt="">
+          </div>
+          <div class="photo_img">
+              <img class="photo_img_wrap" src="img/Осетия.png" alt="">
+              <img class="photo_img_inner" src="img/Осетия(текст).png" alt="">
+          </div>
+      </div>
+      <div class="photo_img_block">
+          <div class="photo_img">
+              <img class="photo_img_wrap" src="img/Крым.png" alt="">
+              <img class="photo_img_inner" src="img/Крым (текст).png" alt="">
+          </div>
+          <div class="photo_img">
+              <img class="photo_img_wrap" src="img/Архыз, река Псыш.png" alt="">
+              <img class="photo_img_inner" src="img/Архыз, река Псыш(тест).png" alt="">
+          </div>
+      </div>
+      <div class="photo_img_block">
+          <div class="photo_img">
+              <img class="photo_img_wrap" src="img/Осетия, на Крестах.png" alt="">
+              <img class="photo_img_inner" src="img/Осетия, на Крестах(текст).png" alt="">
+          </div>
+          <div class="photo_img">
+              <img class="photo_img_wrap" src="img/Архыз, Орленок.png" alt="">
+              <img class="photo_img_inner" src="img/Архыз, Орленок(текст).png" alt="">
+          </div>
+      </div>
+
+      <!-- Галерея  -->
+
+      <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide photo_img_gallery_clide">
+              <div class="photo_img_gallery">
+                  <img class="photo_img_wrap_gallery" src="img/Ледник Майли.png" alt="">
+                  <img class="photo_img_inner_gallery" src="img/Ледник Майли(текст).png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide photo_img_gallery_clide">
+              <div class="photo_img_gallery">
+                  <img class="photo_img_wrap_gallery" src="img/Осетия.png" alt="">
+                  <img class="photo_img_inner_gallery" src="img/Осетия(текст).png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide photo_img_gallery_clide">
+              <div class="photo_img_gallery">
+                  <img class="photo_img_wrap_gallery" src="img/Крым.png" alt="">
+                  <img class="photo_img_inner_gallery" src="img/Крым (текст).png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide photo_img_gallery_clide">
+              <div class="photo_img_gallery">
+                  <img class="photo_img_wrap_gallery" src="img/Архыз, река Псыш.png" alt="">
+                  <img class="photo_img_inner_gallery" src="img/Архыз, река Псыш(тест).png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide photo_img_gallery_clide">
+              <div class="photo_img_gallery">
+              <img class="photo_img_wrap_gallery" src="img/Осетия, на Крестах.png" alt="">
+              <img class="photo_img_inner_gallery" src="img/Осетия, на Крестах(текст).png" alt="">
+          </div>
+      </div>
+            <div class="swiper-slide photo_img_gallery_clide">
+              <div class="photo_img_gallery">
+                  <img class="photo_img_wrap_gallery" src="img/Архыз, Орленок.png" alt="">
+                  <img class="photo_img_inner_gallery" src="img/Архыз, Орленок(текст).png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--------------------- -->
+        <div class="photo_subtitle">
+         <a href="vk.com/malstrim"> Посмотреть<span>&nbsp больше &nbsp </span> фотографий Вы можете на нашей странице Вконтакте</a>
+          <a href="vk.com/malstrim" class="photo_subtitle_link">vk.com/malstrim</a>
+          <a href="vk.com/malstrim"><img class="photo_subtitle_link_vk" src="img/VK white.png" alt=""></a>
+        </div>
+      </div>
+
+  </section>
+    <!-- -------------------------------------  -->
+
+    <!-- Отзывы  -->
+    <!-- --------------------------------------  -->
+
+    <!-- footer  -->
+    <!-- ------------------------------  -->
 
   </body>
 </html>

@@ -21,7 +21,6 @@
   <body>
 
     <!-- Header  -->
-
     <header class="header">
       <div class="container">
         <div class="header_burger">
@@ -241,7 +240,7 @@
                       <div class="Individual_tours_icon">
                           <a href=""><img class="Individual_tours_icon_vk" src="img/vk.svg" alt=""></a>
                           <a href=""><img class="Individual_tours_icon_tl" src="img/tl.svg" alt=""></a>
-                          <button class="Individual_tours_icon_button" type="submit" onclick="show()">Заявка</button>
+                          <a class="Individual_tours_icon_button" href="#" onclick="show()">Заявка</a>
                       </div>
                       <div class="Individual_tours_phones">
                           <div class="Individual_tours_phones_1">
@@ -352,9 +351,201 @@
     <!-- -------------------------------------  -->
 
     <!-- Отзывы  -->
+    <section class="reviews">
+      <h5>Отзывы</h5>
+      <div class="buttons">
+        <button class="controls" id="previous">
+          <img src="img/Кнопка лево.png" alt="previou" />
+        </button>
+        <button class="controls" id="pause">
+          <img src="img/Кнопка.png" alt="pause" />
+        </button>
+        <button class="controls" id="next">
+          <img src="img/Кнопка право.png" alt="next" />
+        </button>
+      </div>
+
+      <div class="container">
+        <ul id="slides">
+          <li class="slide showing">
+            <div class="review">
+              <div class="avatar">
+                <img src="img/ava1.png" alt="r1" />
+              </div>
+              <div>
+                <p class="text-review">
+                  <span class="text-review-span">Мировита Феоктистова</span>
+                  Маршрут полный контрастов, событий и эмоций). Неожиданные
+                  встречи, таинственные пещеры, опьяняющие цветущим разнотравьем
+                  предгорья... Мы даже несколько буков успели пересадить
+                  подальше от тропы)) Маршрут очень красивый, гид Максим - очень
+                  внимательный, терпеливый и всегда позитивный. С ним интересно
+                  и очень спокойно. Если в поход по Крыму- то только с Мальстрим
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="review">
+              <div class="avatar">
+                <img src="img/ava2.png" alt="r2" />
+              </div>
+              <div>
+                <p class="text-review">
+                  <span class="text-review-span">Алена Олейник</span>
+                  Первый раз ходила в поход с Мальстримом и подучила массу
+                  положительных впечатлений. От интересного маршрута. От
+                  неординарных людей. От захватывающих историй. От впечатляющего
+                  опыта. От замечательного чувства юмора. От дружеской
+                  атмосферы. Такие редкие составляющие и все в одном походе.
+                  Ребята, вы огромные молодцы! я теперь ваш клиент надолго.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="review">
+              <div class="avatar">
+                <img src="img/ava3.png" alt="r3" />
+              </div>
+              <div>
+                <p class="text-review">
+                  <span class="text-review-span">Наталья Иванюк</span>
+                  Спасибо команде! очень приятно впечатлена ответственностью
+                  организаторов и вниманием к каждому участнику! С удовольствием
+                  еще пойду с Мальстрим наслаждаться творением природы! Желаю
+                  команде всего самого наилучшего и всегда оставаться такими
+                  веселыми!
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="review">
+              <div class="avatar">
+                <img src="img/ava4.png" alt="r4" />
+              </div>
+              <div>
+                <p class="text-review">
+                  <span class="text-review-span">Сургей Тимофеев</span>
+                  Супер маршрут! Супер проводник! Супер компания!в общем все
+                  мега супер!
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <script src="./script.js"></script>
+      <div class="mobil">
+        <p>посмотреть можно здесь</p>
+        <a href="#"><img src="img/VK_logo.jpg" alt="VK" class="logo" /></a>
+      </div>
+      <div class="text">
+        <p>Посмотреть больше отзывов Вы можете на нашей странице ВКонтакте</p>
+        <a href="#"><img src="img/VK_logo.jpg" alt="VK" class="logo" /></a>
+      </div>
+    </section>
     <!-- --------------------------------------  -->
 
     <!-- footer  -->
+    <footer>
+      <div class="footer_svg"></div>
+      <div class="footer">
+
+        <!-- Логотип -->
+        <div class="footer_div">
+          <div class="img_logo">
+            <img src="./img/logo.png" alt="logo" />
+          </div>
+
+          <p class="footer_p" style="margin-top: 20px">
+            Крымская, туристическая организация, для любителей активного отдыха на
+            природе
+          </p>
+          <div class="img_decor" style="margin-top: 20px">
+            <img
+              src="./img/decor.png"
+              alt="logo"
+              style="width: 230px; height: 90px"
+            />
+          </div>
+        </div>
+        <!-- Услуги -->
+        <div class="footer_div">
+          <h3 class="footer_h3">Услуги</h3>
+          <a class="footer_h4" href="#" style="margin-top: 20px">Крым</a>
+          <li><a class="footer_a" href="#">Однодневные походы </a></li>
+          <li><a class="footer_a" href="#">Походы с&nbsp;ночевкой</a></li>
+          <li><a class="footer_a" href="#">Экстримальные походы</a></li>
+          <li><a class="footer_a" href="#">Психологический интенсив</a></li>
+
+          <a class="footer_h4" href="#">Кавказ</a>
+          <li><a class="footer_a" href="#">Восхождение на&nbsp;Эльбрус</a></li>
+          <li><a class="footer_a" href="#">Трекинг по&nbsp;Адыгее</a></li>
+          <li><a class="footer_a" href="#">Трекинг по&nbsp;Архызу</a></li>
+          <li><a class="footer_a" href="#">Трекинг по&nbsp;Асетии</a></li>
+        </div>
+        <!-- Меню -->
+        <div class="footer_div_menu">
+          <h3 class="footer_h3">Меню</h3>
+          <a class="footer_h4" href="#" style="margin-top: 20px">Главная</a>
+          <li><a class="footer_a" href="#">Расписание</a></li>
+          <li><a class="footer_a" href="#">Памятка туристу</a></li>
+          <li><a class="footer_a" href="#">О&nbsp;нас</a></li>
+        </div>
+        <!-- Контакты -->
+        <div class="footer_div">
+          <h3 class="footer_h3_Cont">Контакты</h3>
+          <div class="footer_div_fone" style="margin-top: 20px">
+            <img src="./img/phone_on.png" alt="fone" />
+            <a class="footer_a_fone" href="#">+7(978)798-58-72</a>
+          </div>
+          <div class="footer_div_fone">
+            <img src="./img/phone_on.png" alt="fone" />
+            <a class="footer_a_fone" href="#">+7(978)529-35-87</a>
+          </div>
+          <div>
+            <p class="footer_p">
+              <b>Подпишитесь</b> на&nbsp;нас в&nbsp;социальных сетях и&nbsp;будьте
+              в&nbsp;курсе всех планирующихся мероприятий в&nbsp;Мальстриме.
+            </p>
+          </div>
+          <div class="footer_div_socseti">
+            <div class="footer_div_socseti_VK">
+              <a
+                href="http://vk.com/malstrim"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./img/VK0.png"
+                  alt="VK"
+                  style="padding-top: 9px; padding-left: 5px"
+                />
+              </a>
+            </div>
+            <div class="footer_div_socseti_Telegram">
+              <a
+                href="http://t.me/vie_est_vita"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="./img/Telegram.png"
+                  alt="Telegram"
+                  style="padding-top: 9px; padding-left: 5px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="footer_div_zayvka">
+            <a class="footer_button_z" href="#" onclick="show()">Заявка</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- ------------------------------  -->
 
   </body>

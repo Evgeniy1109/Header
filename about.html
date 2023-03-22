@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>МАЛЬСТРИМ</title>
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="main.css" />
+    <script defer src="sctipt.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="about.css" />
     <link
       href="https://fonts.cdnfonts.com/css/euclid-circular-a"
@@ -38,7 +38,7 @@
           <div class="menu">
             <img
               class="menu_img"
-              src="img/+.png"
+              src="img/+.svg"
               onclick="menu_img_close()"
               alt=""
             />
@@ -54,32 +54,32 @@
               Заявка
             </button>
             <div class="menu_tel">
-              <img src="img/tube  white.png" alt="telephone" />
+              <img src="img/tube  white.svg" alt="telephone" />
               <p>+7(978) 798-58-72</p>
             </div>
             <div class="menu_tel">
-              <img src="img/tube  white.png" alt="telephone" />
+              <img src="img/tube  white.svg" alt="telephone" />
               <p>+7(978) 798-58-72</p>
             </div>
             <div class="menu_icon">
-              <img src="img/VK1.png" alt="vk" />
-              <img src="img/TЛ.png" alt="telegram" />
+              <a  href="http://vk.com/malstrim" target="_blank"><img class="menu_icon_vk" src="img/VK1.svg" alt="vk"/></a>
+              <a href="http://t.me/vie_est_vita" target="_blank"><img  class="menu_icon_tl" src="img/TЛ.svg" alt="telegram"/></a>
             </div>
           </div>
           <div class="header_icon">
             <a href=""
               ><img
                 class="header_icon_telephone"
-                src="img/tube  white.png"
+                src="img/tube  white.svg"
                 alt="telephone"
             /></a>
-            <a href=""
-              ><img class="header_icon_vk" src="img/VK white.png" alt="vk"
+            <a href="http://vk.com/malstrim" target="_blank"
+              ><img class="header_icon_vk" src="img/VK white.svg" alt="vk"
             /></a>
-            <a href=""
+            <a href="http://t.me/vie_est_vita" target="_blank"
               ><img
                 class="header_icon_telegram"
-                src="img/Telegramwhite.png"
+                src="img/Telegramwhite.svg"
                 alt="telegram"
             /></a>
           </div>
@@ -97,20 +97,20 @@
               </div>
             </div>
             <div class="modal_img_2">
-              <img src="img/+.png" onclick="show()"alt="">
+              <img src="img/+.svg" onclick="show()"alt="">
             </div>
           <div class="modal_form">
             <form action="">
               <p class="modal_form_text">Отправьте заявку и мы перезвоним Вам в ближайшее время и поможем подобрать поход</p>
               <div class="modal_application">
-                <img src="img/туристМод.png" alt="турист">
+                <img src="img/туристМод.svg" alt="турист">
                 <div class="modal_application_label">
                 <p><label for="">Ваше имя:</label></p>
                 <input class="modal_application_input" type="text" name="name">
               </div>
               </div>
               <div class="modal_application">
-                <img src="img/телефон.png" alt="телефон">
+                <img src="img/телефон.svg" alt="телефон">
                 <div class="modal_application_label">
                 <p><label for="">Телефон:</label></p>
                 <input class="modal_application_input" type="text" name="name">
@@ -138,21 +138,21 @@
           <div class="about_sidebar_title">Контакты</div>
           <div class="about_sidebar_phones">
             <div class="about_sidebar_phones_1">
-            <img class="about_sidebar_phones_img" src="img/tel.png" alt="иконка телефон">
+            <img class="about_sidebar_phones_img" src="img/tel.svg" alt="иконка телефон">
             <p class="about_sidebar_phones_tel">+7(978) 798-58-72</p>
             </div>
             <div class="about_sidebar_phones_1">
-                <img class="about_sidebar_phones_img" src="img/tel.png" alt="иконка телефон">
+                <img class="about_sidebar_phones_img" src="img/tel.svg" alt="иконка телефон">
                 <p class="about_sidebar_phones_tel">+7(978) 529-35-87</p>
                 </div>
         </div>
         <div class="about_sidebar_icon">
-          <a href=""><img class="about_sidebar_icon_vk" src="img/VK white.png" alt="иконка vk"></a>
-          <a href="" class="about_sidebar_icon_link">vk.com/malstrim</a>
+          <a href="http://vk.com/malstrim" target="_blank"><img class="about_sidebar_icon_vk" src="img/VK white.svg" alt="иконка vk"></a>
+          <a href="http://vk.com/malstrim" target="_blank" class="about_sidebar_icon_link">vk.com/malstrim</a>
         </div>
         <div class="about_sidebar_icon">
-          <a href=""><img class="about_sidebar_icon_tl" src="img/Telegramwhite.png" alt="иконка телеграмм"></a>
-          <a href="" class="about_sidebar_icon_link">t.me/malstrim</a>
+          <a href="http://t.me/vie_est_vita" target="_blank"><img class="about_sidebar_icon_tl" src="img/Telegramwhite.svg" alt="иконка телеграмм"></a>
+          <a href="http://t.me/vie_est_vita" target="_blank" class="about_sidebar_icon_link">t.me/malstrim</a>
         </div>
         <div class="about_sidebar_text">День рождение Мальстрим</div>
         <div class="about_sidebar_subtitle">01 апреля 2019 год</div>
@@ -282,10 +282,10 @@
         <!-- Меню -->
         <div class="footer_div_menu">
           <h3 class="footer_h3">Меню</h3>
-          <a class="footer_h4" href="#" style="margin-top: 20px">Главная</a>
-          <li><a class="footer_a" href="#">Расписание</a></li>
-          <li><a class="footer_a" href="#">Памятка туристу</a></li>
-          <li><a class="footer_a" href="#">О&nbsp;нас</a></li>
+          <a class="footer_h4" href="index.html" style="margin-top: 20px">Главная</a>
+          <li><a class="footer_a" href="schedule.html">Расписание</a></li>
+          <li><a class="footer_a" href="reminder.html">Памятка туристу</a></li>
+          <li><a class="footer_a" href="about.html">О&nbsp;нас</a></li>
         </div>
         <!-- Контакты -->
         <div class="footer_div">

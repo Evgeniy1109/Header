@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>МАЛЬСТРИМ</title>
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="main.css" />
+    <script defer src="sctipt.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.cdnfonts.com/css/euclid-circular-a"
       rel="stylesheet"
@@ -39,7 +39,7 @@
             </ul>
           </nav>
           <div class="menu" >
-            <img class="menu_img" src="img/+.png" onclick="menu_img_close()" alt="">
+            <img class="menu_img" src="img/+.svg" onclick="menu_img_close()" alt="">
             <ul>
               <li class="menu_link"><a href="index.html">Главная</a></li>
               <li class="menu_link"><a href="schedule.html">Расписание</a></li>
@@ -50,27 +50,29 @@
             </ul>
             <button class="menu_btn" type="submit" onclick="show()">Заявка</button>
             <div class="menu_tel">
-              <img src="img/tube  white.png" alt="telephone">
+              <img src="img/tube  white.svg" alt="telephone">
               <p>+7(978) 798-58-72</p>
             </div>
             <div class="menu_tel">
-              <img src="img/tube  white.png" alt="telephone">
+              <img src="img/tube  white.svg" alt="telephone">
               <p>+7(978) 798-58-72</p>
             </div>
             <div class="menu_icon">
-              <img src="img/VK1.png" alt="vk">
-              <img src="img/TЛ.png" alt="telegram">
+              <a href="http://vk.com/malstrim" target="_blank"><img class="menu_icon_vk" src="img/VK1.svg" alt="vk"></a>
+              <a href="http://t.me/vie_est_vita" target="_blank"><img class="menu_icon_tl" src="img/TЛ.svg" alt="telegram"></a>
             </div>
           </div>
           <div class="header_icon">
-            <a href=""><img class="header_icon_telephone" src="img/Трубка.png" alt="telephone" /></a>
-            <a href="#"><img class="header_icon_vk" src="img/VK1.png" alt="vk" /></a>
-            <a href="#"><img class="header_icon_telegram" src="img/TЛ.png" alt="telegram" /></a>
+            <a href=""><img class="header_icon_telephone" src="img/Трубка.svg" alt="telephone" /></a>
+            <a href="http://vk.com/malstrim" target="_blank"><img class="header_icon_vk" src="img/VK1.svg" alt="vk" /></a>
+            <a href="http://t.me/vie_est_vita" target="_blank"><img class="header_icon_telegram" src="img/TЛ.svg" alt="telegram" /></a>
           </div>
           <div class="header_link">
             <a href="#" onclick="show()">В поход !</a>
           </div>
     </div>
+
+    <div class="modal_form_fixed">
           <div class="modal_form_active modal_close">
             <div class="modal_window_window">
             <div class="modal_window">
@@ -81,20 +83,20 @@
                 </div>
               </div>
               <div class="modal_img_2">
-                <img src="img/+.png" onclick="show()"alt="">
+                <img src="img/+.svg" onclick="show()"alt="">
               </div>
             <div class="modal_form">
               <form action="">
                 <p class="modal_form_text">Отправьте заявку и мы перезвоним Вам в ближайшее время и поможем подобрать поход</p>
                 <div class="modal_application">
-                  <img src="img/туристМод.png" alt="турист">
+                  <img src="img/туристМод.svg" alt="турист">
                   <div class="modal_application_label">
                   <p><label for="">Ваше имя:</label></p>
                   <input class="modal_application_input" type="text" name="name">
                 </div>
                 </div>
                 <div class="modal_application">
-                  <img src="img/телефон.png" alt="телефон">
+                  <img src="img/телефон.svg" alt="телефон">
                   <div class="modal_application_label">
                   <p><label for="">Телефон:</label></p>
                   <input class="modal_application_input" type="text" name="name">
@@ -110,6 +112,9 @@
           </div>
           </div>
       </div>
+    </div>
+
+
           <div class="header_box">
             <div class="header_box_title_img">
               <div class="header_box_title">
@@ -145,26 +150,26 @@
     <!-- Наши походы  -->
     <section class="hiking_advantages">
       <div class="container">
-        <h2>Наши походы</h2>
+        <h2>Нас выбирают, потому что:</h2>
         <div class="hiking_block">
           <div class="hiking_img">
             <img src="img/Веселые.png" alt="cheerful" />
-            <p>Веселые</p>
+            <p>В наших походах Вам не нужно ни о чем беспокоиться, мы обо всем позаботимся за Вас</p>
           </div>
           <div class="hiking_point"></div>
           <div class="hiking_img">
             <img src="img/Безопасные.png" alt="Safe" />
-            <p>Безопасные</p>
+            <p>Каждый наш поход проходит под чутким руководством специалистов</p>
           </div>
           <div class="hiking_point"></div>
           <div class="hiking_img">
             <img src="img/Вкусные.png" alt="Tasty" />
-            <p>Вкусные</p>
+            <p>У нас разнообразные виды отдыха и даже маршруты с шашлыком и дикой лесной баней</p>
           </div>
           <div class="hiking_point"></div>
           <div class="hiking_img">
             <img src="img/Круглогодичные.png" alt="season" />
-            <p>Круглогодичные</p>
+            <p>В Крымских горах только проверенные тропы и самые красивые пейзажи</p>
           </div>
         </div>
         <div class="swiper mySwiper">
@@ -180,7 +185,7 @@
 
       <!-- Наши преимущества -->
       <div class="container">
-        <h2>Наши преимущества</h2>
+        <h2>Только для Вас</h2>
         <div class="advantages_block">
           <div class="advantages_img">
             <img src="img/Vector.png" alt="" />
@@ -212,7 +217,114 @@
     <!-- --------------  -->
 
     <!-- Крым  -->
-    
+    <section class="caucasus_section">
+      <div class="caucasus_fon_top"></div>
+      <div class="caucasus_fon_center">
+        <div class="container">
+          <div class="caucasus_header">
+            <div class="caucasus_header_title">Крым</div>
+            <div class="nav_caucasus">
+              <ul class="tabs">
+                <li data-tab="1" class="tab_header active"> Однодневные</li>
+                <li data-tab="2" class="tab_header">с ночевкой</li>
+                <li data-tab="3" class="tab_header">Экстрим</li>
+                <li data-tab="4" class="tab_header">психологический интенсив</li>
+              </ul>
+            </div>
+
+          </div>
+
+
+
+          <div data-tab-content="1" class="caucasus active">
+          <div class="caucasus_desc">
+
+            <div class="caucasus_subtitle_img">
+            <img src="img/svg-crimea.svg" alt="">
+          </div>
+
+          <div class="caucasus_subtitle">
+            <ul>
+              Однодневный поход – это прекрасная возможность отдохнуть на свежем лесном, горном и морском воздухе. Крым богат красивыми пешими маршрутами, которые мы проводим каждую неделю. Виды на Чёрное море, на дикие лесные ущелья, на глубокие каньоны и бескрайние просторы плато. Долина, немножко тихой воды и луч заката — самые простые вещи, самые обыкновенные, самые дорогие.
+          </ul>
+          </div>
+
+          </div>
+          <div class="caucasus_img">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_oneday_1.png" alt="">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_oneday_2.png" alt="">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_oneday_3.png" alt="">
+          </div>
+        </div>
+
+        <div data-tab-content="2" class="caucasus">
+        <div class="caucasus_desc">
+
+          <div class="caucasus_subtitle_img">
+            <img src="img/svg-crimea.svg" alt="">
+          </div>
+
+          <div class="caucasus_subtitle">
+            Поход с ночевкой - это увлекательное путешествие по горной местности Крыма с ночевками в палатке, разговорами у костра, совместное приготовление пищи и сбор дров, обустройство своего жилища для удобного и комфортного отдыха на сказочной природе. Это когда вместе с душевной компанией встречаешь солнышко из морской глади и вечером вместе его провожаешь.
+          </div>
+
+
+
+          </div>
+          <div class="caucasus_img">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_night_1.png" alt="">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_night_2.png" alt="">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_night_3.png" alt="">
+          </div>
+        </div>
+
+        <div data-tab-content="3" class="caucasus" >
+        <div class="caucasus_desc">
+
+          <div class="caucasus_subtitle_img">
+            <img src="img/svg-crimea.svg" alt="">
+          </div>
+
+          <div class="caucasus_subtitle">
+            Экстрим туры в Крыму - это самое яркое, красочное и видовое путешествие, которое Вы можете себе позволить. С нашими опытными инструкторами любой человек сможет попробовать себя в такой активной деятельности. Обучим, проведем инструктаж, дадим все необходимое снаряжение, лишь бы Ваши эмоции остались на высоте. Для нас дороги Ваши впечатления.
+          </div>
+
+
+          </div>
+          <div class="caucasus_img">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_extream_1.png" alt="">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_extream_2.png" alt="">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_extream_3.png" alt="">
+          </div>
+        </div>
+
+        <div data-tab-content="4" class="caucasus">
+        <div class="caucasus_desc">
+          <div class="caucasus_subtitle_img">
+            <img src="img/svg-crimea.svg" alt="">
+          </div>
+          <div class="caucasus_subtitle">
+            Наша команда проводит семинары на природе, они для тех, кто вступил на путь самопознания и саморазвития, желает изменить своё восприятие, оздоровить и разгрузить психику,  проработать внутренние проблемы, разобраться в себе и перезагрузить свою жизнь, посетить места силы и уникальные места крымской природы. С Вами буду работать опытный психотерапевт и опытный проводник.
+          </div>
+          </div>
+          <div class="caucasus_img">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_psycho_1.png" alt="">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_psycho_2.png" alt="">
+            <img class="caucasus_img_elbrus" src="img/Rectangle_psycho_3.png" alt="">
+          </div>
+        </div>
+          <div class="caucasus_button">
+            <div class="caucasus_btn_routes">
+              <a href="schedule.html">Маршруты</a>
+            </div>
+            <div class="caucasus_btn_record">
+              <a href="#" onclick="show()">Записаться</a>
+            </div>
+          </div>
+        </div>
+        <div class="caucasus_fon_bottom"></div>
+      </div>
+    </section>
     <!-- -----------------  -->
 
     <!-- Индивидуальные туры  -->
@@ -239,17 +351,17 @@
                   </div>
                   <div class="Individual_tours_contacts">
                       <div class="Individual_tours_icon">
-                          <a href=""><img class="Individual_tours_icon_vk" src="img/vk.svg" alt=""></a>
-                          <a href=""><img class="Individual_tours_icon_tl" src="img/tl.svg" alt=""></a>
+                          <a href="http://vk.com/malstrim" target="_blank"><img class="Individual_tours_icon_vk" src="img/vk.svg" alt=""></a>
+                          <a href="http://t.me/vie_est_vita" target="_blank"><img class="Individual_tours_icon_tl" src="img/tl.svg" alt=""></a>
                           <a class="Individual_tours_icon_button" href="#" onclick="show()">Заявка</a>
                       </div>
                       <div class="Individual_tours_phones">
                           <div class="Individual_tours_phones_1">
-                          <img src="img/tel.png" alt="">
+                          <img src="img/tel.svg" alt="">
                           <p>+7(978) 798-58-72</p>
                           </div>
                           <div class="Individual_tours_phones_1">
-                              <img src="img/tel.png" alt="">
+                              <img src="img/tel.svg" alt="">
                               <p>+7(978) 529-35-87</p>
                               </div>
                       </div>
@@ -444,9 +556,9 @@
         </div>
         <!--------------------- -->
         <div class="photo_subtitle">
-         <a href="vk.com/malstrim"> Посмотреть<span>&nbsp больше &nbsp </span> фотографий Вы можете на нашей странице Вконтакте</a>
-          <a href="vk.com/malstrim" class="photo_subtitle_link">vk.com/malstrim</a>
-          <a href="vk.com/malstrim"><img class="photo_subtitle_link_vk" src="img/VK white.png" alt=""></a>
+         <a href="http://vk.com/malstrim" target="_blank"> Посмотреть<span>&nbsp больше &nbsp </span> фотографий Вы можете на нашей странице Вконтакте</a>
+          <a href="http://vk.com/malstrim" target="_blank" class="photo_subtitle_link">vk.com/malstrim</a>
+          <a href="http://vk.com/malstrim" target="_blank"><img class="photo_subtitle_link_vk" src="img/VK white.svg" alt=""></a>
         </div>
       </div>
 
@@ -545,10 +657,19 @@
         <p>посмотреть можно здесь</p>
         <a href="#"><img src="img/VK_logo.jpg" alt="VK" class="logo" /></a>
       </div>
-      <div class="text">
+
+      <div class="photo_subtitle photo_subtitle_new">
+        <a href="http://vk.com/malstrim" target="_blank"> Посмотреть<span>&nbsp больше &nbsp </span> отзывов Вы можете на нашей странице Вконтакте</a>
+         <a href="http://vk.com/malstrim" target="_blank" class="photo_subtitle_link">vk.com/malstrim</a>
+         <a href="http://vk.com/malstrim" target="_blank"><img class="photo_subtitle_link_vk" src="img/VK white.svg" alt=""></a>
+       </div>
+
+
+      <!-- <div class="text">
         <p>Посмотреть больше отзывов Вы можете на нашей странице ВКонтакте</p>
         <a href="#"><img src="img/VK_logo.jpg" alt="VK" class="logo" /></a>
-      </div>
+      </div> -->
+
     </section>
     <!-- --------------------------------------  -->
 
@@ -593,10 +714,10 @@
         <!-- Меню -->
         <div class="footer_div_menu">
           <h3 class="footer_h3">Меню</h3>
-          <a class="footer_h4" href="#" style="margin-top: 20px">Главная</a>
-          <li><a class="footer_a" href="#">Расписание</a></li>
-          <li><a class="footer_a" href="#">Памятка туристу</a></li>
-          <li><a class="footer_a" href="#">О&nbsp;нас</a></li>
+          <a class="footer_h4" href="index.html" style="margin-top: 20px">Главная</a>
+          <li><a class="footer_a" href="schedule.html">Расписание</a></li>
+          <li><a class="footer_a" href="reminder.html">Памятка туристу</a></li>
+          <li><a class="footer_a" href="about.html">О&nbsp;нас</a></li>
         </div>
         <!-- Контакты -->
         <div class="footer_div">

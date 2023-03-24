@@ -48,8 +48,9 @@ svg{
     align-items: center;
 }
 .nav {
-    margin-left: 212px;
-    margin-right: 83px;
+    margin: 0 auto;
+    /* margin-left: 212px;
+    margin-right: 83px; */
 }
 .nav ul {
     display: flex;
@@ -62,12 +63,15 @@ svg{
     line-height: 25px;
     font-weight: 500;
     color: #ffffff;
+    text-shadow: 0px 0px 15px rgba(19, 44, 51, 0.65);
 }
 .nav a:hover {
     color: #132c33;
+    text-shadow: none;
 }
 .nav a:active {
-    color: #132c33;
+    color: #081417;
+    text-shadow: none;
 }
 .nav li {
     list-style: none;
@@ -75,6 +79,7 @@ svg{
 .menu > img {
     padding-top: 40px;
     padding-bottom: 54px;
+    cursor: pointer;
 }
 .menu {
     text-align: end;
@@ -163,6 +168,7 @@ svg{
     background-color: #ffffff;
     border-radius: 7px;
     height: 32px;
+    cursor: pointer;
 }
 .header_icon_telegram{
     padding: 8px 6px;
@@ -224,6 +230,7 @@ svg{
 }
 .header_block_description {
     display: flex;
+    justify-content: center;
 }
 .header_block_img {
     width: 174px;
@@ -258,9 +265,42 @@ svg{
     padding-top: 51px;
     justify-content: center;
 }
+/* Модальное окно с телефонами */
+.modal_telephone_close{
+    display: none;
+}
+.modal_telephone_wrap{
+    display: flex;
+    justify-content: end;
+    padding-right: 300px;
+}
+.modal_telephone{
+    position: fixed;
+    width: 100%;
+    max-width: 229px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 27px;
+}
+.modal_telephone_1{
+    display: flex;
+    margin-bottom: 23px;
+}
+.modal_telephone_1:last-child{
+    margin-bottom: 0;
+}
+.modal_telephone_1 img{
+    margin-right: 13px;
+}
+.modal_telephone_1 p{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #000000;
+}
+/* -----------------------------  */
 
 /* Модальное  */
-
 .modal_close{
     display: none;
 }
@@ -287,6 +327,7 @@ svg{
     position: absolute;
     right: 35px;
     top: 50px;
+    cursor: pointer;
 }
 .modal_form_p{
     position: absolute;
@@ -405,6 +446,9 @@ svg{
 .swiper-slide img{
     display: none;
 }
+.hiking_slider p{
+    display: none;
+}
 .hiking_advantages {
     background-image: url(img/sect-benefits.jpg);
     background-repeat: no-repeat;
@@ -439,6 +483,7 @@ svg{
     background-color: #fbac1e;
     border-radius: 50%;
     align-items: center;
+    margin-bottom: 105px;
 }
 .hiking_img > img {
     padding-bottom: 20px;
@@ -461,6 +506,15 @@ svg{
 .advantages_img_none{
     max-width: 170px;
     text-align: center;
+}
+.advantages_img img, .advantages_img_none img{
+    margin-bottom: 20px;
+}
+.advantages_img p, .advantages_img_none p{
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #132C33;
 }
 
 
@@ -1397,12 +1451,20 @@ svg{
       object-fit: cover;
       gap: 50px;
       padding-top: 33px;
+      padding-bottom: 10px;
+    }
+    .hiking_slider p{
+        display: block;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 600;
+        color: #132C33;
     }
     .advantages_img_none{
         display: none;
     }
     .advantages_block{
-        gap: 0;
+        gap: 13px;
     }
     .advantages_img {
         max-width: 140px;

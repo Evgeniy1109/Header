@@ -183,7 +183,7 @@ svg{
     height: 32px;
 }
 .header_icon_telegram:hover,
-.header_icon_vk:hover {
+.header_icon_vk:hover, .header_icon_telephone:hover {
     background-color: #ffca3c;
 }
 .header_icon_telephone:active,
@@ -272,7 +272,7 @@ svg{
 .modal_telephone_wrap{
     display: flex;
     justify-content: end;
-    padding-right: 300px;
+    padding-right: 40px;
 }
 .modal_telephone{
     position: fixed;
@@ -323,10 +323,13 @@ svg{
     position: absolute;
     width: 100%;
 }
+.modal_window_img{
+    cursor: pointer;
+}
 .modal_img_2{
     position: absolute;
-    right: 35px;
-    top: 50px;
+    right: 15px;
+    top: 15px;
     cursor: pointer;
 }
 .modal_form_p{
@@ -335,35 +338,25 @@ svg{
     line-height: 35px;
     font-weight: 400;
     color: #ffffff;
-    bottom: 117px;
-    right: 80px;
+    top: 21px;
+    right: 56px;
     padding-bottom: 14px;
     border-bottom: 2px solid #ffffff;
-    width: 440px;
+    width: 424px;
 }
 .modal_form{
     position: absolute;
     max-width: 510px;
-    padding: 0px 0px 30px 48px;
+    padding: 0px 0px 30px 35px;
     background-color: #ffffff;
     border-radius: 15px;
     text-align: start;
     margin-top: 65px;
 }
 .modal_form_text{
-    padding: 30px 35px 25px 35px;
+    padding: 30px 65px 25px 0px;
 }
-.modal_form_p{
-    font-size: 28px;
-    line-height: 35px;
-    font-weight: 400;
-    color: #ffffff;
-    bottom: 117px;
-    right: 80px;
-    padding-bottom: 14px;
-    border-bottom: 2px solid #ffffff;
-    width: 440px;
-}
+
 .modal_form_application {
     font-size: 18px;
     line-height: 23px;
@@ -379,6 +372,7 @@ svg{
     font-weight: 500;
     color: #000000;
     padding-top: 15px;
+    padding-left: 13px;
 }
 .modal_application img{
     height: 36px;
@@ -404,6 +398,11 @@ svg{
     outline: none;
     padding: 8px 0 8px 12px;
 }
+::-webkit-input-placeholder {color:#D2D2D2;}
+::-moz-placeholder          {color:#D2D2D2;}
+:-moz-placeholder           {color:#D2D2D2;}
+:-ms-input-placeholder      {color:#D2D2D2;}
+
 .modal_application_checkbox{
     display: flex;
     margin-top: 26px;
@@ -479,8 +478,8 @@ svg{
 .hiking_point {
     width: 20px;
     height: 20px;
-    border: 1px solid #fbac1e;
-    background-color: #fbac1e;
+    border: 1px solid #E79814;
+    background-color: #E79814;
     border-radius: 50%;
     align-items: center;
     margin-bottom: 105px;

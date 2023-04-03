@@ -62,17 +62,16 @@
               <p>+7(978) 798-58-72</p>
             </div>
             <div class="menu_icon">
-              <a  href="http://vk.com/malstrim" target="_blank"><img class="menu_icon_vk" src="img/VK1.svg" alt="vk"/></a>
-              <a href="http://t.me/vie_est_vita" target="_blank"><img  class="menu_icon_tl" src="img/TЛ.svg" alt="telegram"/></a>
+              <a href="http://vk.com/malstrim" target="_blank"
+                ><img class="menu_icon_vk" src="img/VK1.svg" alt="vk"
+              /></a>
+              <a href="http://t.me/vie_est_vita" target="_blank"
+                ><img class="menu_icon_tl" src="img/TЛ.svg" alt="telegram"
+              /></a>
             </div>
           </div>
           <div class="header_icon">
-            <a href=""
-              ><img
-                class="header_icon_telephone"
-                src="img/tube  white.svg"
-                alt="telephone"
-            /></a>
+            <img class="header_icon_telephone" onmouseover="icon_over()" onmouseout="icon_out()" src="img/tube  white.svg" alt="telephone"/>
             <a href="http://vk.com/malstrim" target="_blank"
               ><img class="header_icon_vk" src="img/VK white.svg" alt="vk"
             /></a>
@@ -87,157 +86,312 @@
             <a href="#" onclick="show()">В поход !</a>
           </div>
         </div>
-        <div class="modal_form_active modal_close">
-          <div class="modal_window_window">
-          <div class="modal_window">
-            <div class="modal_img_1" >
-              <img src="img/модальное окно.png" alt="">
-              <div class="modal_form_p">
-                <p>Отдыхай правильно</p>
+        <!-- Модальное окно с телефонами -->
+        <div class="modal_telephone_window modal_telephone_close">
+          <div class="modal_telephone_wrap">
+            <div class="modal_telephone">
+              <div class="modal_telephone_1">
+                <img src="img/tel.svg" alt="" />
+                <p>+7(978) 798-58-72</p>
+              </div>
+              <div class="modal_telephone_1">
+                <img src="img/tel.svg" alt="" />
+                <p>+7(978) 529-35-87</p>
               </div>
             </div>
-            <div class="modal_img_2">
-              <img src="img/+.svg" onclick="show()"alt="">
-            </div>
-          <div class="modal_form">
-            <form action="">
-              <p class="modal_form_text">Отправьте заявку и мы перезвоним Вам в ближайшее время и поможем подобрать поход</p>
-              <div class="modal_application">
-                <img src="img/туристМод.svg" alt="турист">
-                <div class="modal_application_label">
-                <p><label for="">Ваше имя:</label></p>
-                <input class="modal_application_input" type="text" name="name">
-              </div>
-              </div>
-              <div class="modal_application">
-                <img src="img/телефон.svg" alt="телефон">
-                <div class="modal_application_label">
-                <p><label for="">Телефон:</label></p>
-                <input class="modal_application_input" type="text" name="name">
-              </div>
-              </div>
-              <div class="modal_application_checkbox">
-              <input type="checkbox" class="modal_application_input_checkbox">
-              <p> Я согласен с <span>условиями передачи информации</span></p>
-            </div>
-              <button class="modal_form_btn" type="submit">Отправить</button>
-            </form>
           </div>
         </div>
+        <!-- --------------------------  -->
+        <div class="modal_form_active modal_close">
+          <div class="modal_window_window">
+            <div class="modal_window">
+              <div class="modal_img_1">
+                <img
+                  class="modal_window_img"
+                  src="img/модальное окно 2.png"
+                  alt=""
+                />
+                <div class="modal_form_p">
+                  <p>Мы ждет тебя в нашу команду!</p>
+                </div>
+              </div>
+              <!-- <div class="modal_img_2">
+              <img src="img/+.svg" onclick="show()"alt="">
+            </div> -->
+              <div class="modal_form">
+                <form action="">
+                  <div class="modal_img_2">
+                    <img src="img/+.svg" onclick="show()" alt="" />
+                  </div>
+                  <p class="modal_form_text">
+                    Отправьте заявку и мы перезвоним Вам в ближайшее время и
+                    поможем подобрать поход
+                  </p>
+                  <div class="modal_application">
+                    <img src="img/туристМод.svg" alt="турист" />
+                    <div class="modal_application_label">
+                      <p><label for="">Ваше имя:</label></p>
+                      <input
+                        class="modal_application_input"
+                        type="text"
+                        name="name" placeholder="Введите ваше имя"
+                      />
+                    </div>
+                  </div>
+                  <div class="modal_application">
+                    <img src="img/телефон.svg" alt="телефон" />
+                    <div class="modal_application_label">
+                      <p><label for="">Телефон:</label></p>
+                      <input
+                        class="modal_application_input"
+                        type="text"
+                        name="name" placeholder ="+ 7 (978) 798-58-72"
+                      />
+                    </div>
+                  </div>
+                  <div class="modal_application_checkbox">
+                    <input
+                      type="checkbox"
+                      class="modal_application_input_checkbox"
+                    />
+                    <p>
+                      Я согласен с <span>условиями передачи информации</span>
+                    </p>
+                  </div>
+                  <button class="modal_form_btn" type="submit">
+                    Отправить
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
       </div>
     </header>
 
     <!-- О нас  -->
-     <!-- Контакты Мальстрим -->
-  <section class="about">
-    <div class="container">
-      <div class="about_content">
-        <div class="about_sidebar">
-          <div class="about_sidebar_title">Контакты</div>
-          <div class="about_sidebar_phones">
-            <div class="about_sidebar_phones_1">
-            <img class="about_sidebar_phones_img" src="img/tel.svg" alt="иконка телефон">
-            <p class="about_sidebar_phones_tel">+7(978) 798-58-72</p>
-            </div>
-            <div class="about_sidebar_phones_1">
-                <img class="about_sidebar_phones_img" src="img/tel.svg" alt="иконка телефон">
+    <!-- Контакты Мальстрим -->
+    <section class="about">
+      <div class="container">
+        <div class="about_content">
+          <div class="about_sidebar">
+            <div class="about_sidebar_title">Контакты</div>
+            <div class="about_sidebar_phones">
+              <div class="about_sidebar_phones_1">
+                <img
+                  class="about_sidebar_phones_img"
+                  src="img/tel.svg"
+                  alt="иконка телефон"
+                />
+                <p class="about_sidebar_phones_tel">+7(978) 798-58-72</p>
+              </div>
+              <div class="about_sidebar_phones_1">
+                <img
+                  class="about_sidebar_phones_img"
+                  src="img/tel.svg"
+                  alt="иконка телефон"
+                />
                 <p class="about_sidebar_phones_tel">+7(978) 529-35-87</p>
-                </div>
+              </div>
+            </div>
+            <div class="about_sidebar_icon">
+              <a href="http://vk.com/malstrim" target="_blank"
+                ><img
+                  class="about_sidebar_icon_vk"
+                  src="img/VK white.svg"
+                  alt="иконка vk"
+              /></a>
+              <a
+                href="http://vk.com/malstrim"
+                target="_blank"
+                class="about_sidebar_icon_link"
+                >vk.com/malstrim</a
+              >
+            </div>
+            <div class="about_sidebar_icon">
+              <a href="http://t.me/vie_est_vita" target="_blank"
+                ><img
+                  class="about_sidebar_icon_tl"
+                  src="img/Telegramwhite.svg"
+                  alt="иконка телеграмм"
+              /></a>
+              <a
+                href="http://t.me/vie_est_vita"
+                target="_blank"
+                class="about_sidebar_icon_link"
+                >t.me/malstrim</a
+              >
+            </div>
+            <div class="about_sidebar_text">День рождения Мальстрим</div>
+            <div class="about_sidebar_subtitle">01 апреля 2019 год</div>
+          </div>
+          <div class="about_text">
+            <div class="about_text_title">Мальстрим</div>
+            <div class="about_text_desc">
+              Мальстрим - команда опытных инструкторов-проводников пешеходного
+              туризма. Мы организовываем яркие и незабываемые путешествия по
+              Крымскому полуострову круглый год, а также проводим летние и
+              майские туры по Кавказу и восхождение на Эльбрус. С нами Вы можете
+              отправиться в походы и активные туры по самым разнообразным
+              маршрутам, встретить рассветы и проводить солнце на горных
+              вершинах, совершить спуск в пещеры и многое другое. Наши походы
+              подходят как детям так и взрослым, каждый поход имеет свою
+              сложность и особенность. Все гиды нашей команды имеют определенную
+              квалификацию и могут помочь любому человеку подготовиться даже в
+              самый сложный поход.
+            </div>
+            <p class="about_text_desc_p">
+              Будьте осторожны: водоворот путешествий может поглотить Вас!
+            </p>
+            <img class="about_text_img" src="img/Фото 1 о нас.png.png" alt="" />
+          </div>
         </div>
-        <div class="about_sidebar_icon">
-          <a href="http://vk.com/malstrim" target="_blank"><img class="about_sidebar_icon_vk" src="img/VK white.svg" alt="иконка vk"></a>
-          <a href="http://vk.com/malstrim" target="_blank" class="about_sidebar_icon_link">vk.com/malstrim</a>
-        </div>
-        <div class="about_sidebar_icon">
-          <a href="http://t.me/vie_est_vita" target="_blank"><img class="about_sidebar_icon_tl" src="img/Telegramwhite.svg" alt="иконка телеграмм"></a>
-          <a href="http://t.me/vie_est_vita" target="_blank" class="about_sidebar_icon_link">t.me/malstrim</a>
-        </div>
-        <div class="about_sidebar_text">День рождение Мальстрим</div>
-        <div class="about_sidebar_subtitle">01 апреля 2019 год</div>
-        </div>
-        <div class="about_text">
-          <div class="about_text_title">Мальстрим</div>
-          <div class="about_text_desc">Мальстрим - команда опытных инструкторов-проводников пешеходного туризма. Мы организовываем яркие и незабываемые путешествия по Крымскому полуострову круглый год, а также проводим летние и майские туры по Кавказу и восхождение на Эльбрус. С нами Вы можете отправиться в походы и активные туры по самым разнообразным маршрутам, встретить рассветы и проводить солнце на горных вершинах, совершить спуск в пещеры и многое другое. Наши походы подходят как детям так и взрослым, каждый поход имеет свою сложность и особенность. Все гиды нашей команды имеют определенную квалификацию и могут помочь любому человеку подготовиться даже в самый сложный поход.</div>
-          <p class="about_text_desc_p"> Будьте осторожны: водоворот путешествий может поглотить Вас!</p>
-          <img class="about_text_img" src="img/Фото 1 о нас.png.png" alt="">
       </div>
-    </div>
-  </div>
-  </section>
+    </section>
 
-  <!-- Наши гиды -->
-  <section class="guides">
-    <div class="container">
-      <div class="guides_title">Наши гиды</div>
-      <div class="guides_block">
-        <div class="guides_block_top">
-          <div class="guides_instructor">
-            <img class="guides_instructor_img" src="img/Максим.png" alt="Инструктор Максим">
-            <img class="guides_instructor_fon" src="img/Фон 4.png" alt="Фон">
-            <div class="guides_instructor_name">Максим</div>
-            <div class="guides_instructor_desc">Инструктор проводник пешеходного туризма по Крыму. Специалист в рекреационно-оздоровительных мероприятиях.</div>
+    <!-- Наши гиды -->
+    <section class="guides">
+      <div class="container">
+        <div class="guides_title">Наши гиды</div>
+        <div class="guides_block">
+          <div class="guides_block_top">
+            <div class="guides_instructor">
+              <img
+                class="guides_instructor_img"
+                src="img/Максим.png"
+                alt="Инструктор Максим"
+              />
+              <img
+                class="guides_instructor_fon"
+                src="img/Фон 4.png"
+                alt="Фон"
+              />
+              <div class="guides_instructor_name">Максим</div>
+              <div class="guides_instructor_desc">
+                Инструктор проводник пешеходного туризма по Крыму. Специалист в
+                рекреационно-оздоровительных мероприятиях.
+              </div>
+            </div>
+            <div class="guides_instructor">
+              <img
+                class="guides_instructor_img"
+                src="img/Светозар.png"
+                alt="Инструктор Светозар"
+              />
+              <img
+                class="guides_instructor_fon"
+                src="img/Фон 4.png"
+                alt="Фон"
+              />
+              <div class="guides_instructor_name">Светозар</div>
+              <div class="guides_instructor_desc">
+                Психолог, главный организатор интенсива «Перезагрузка» и
+                «Пробуждение»
+              </div>
+            </div>
           </div>
-          <div class="guides_instructor">
-            <img class="guides_instructor_img" src="img/Светозар.png" alt="Инструктор Светозар">
-            <img class="guides_instructor_fon" src="img/Фон 4.png" alt="Фон">
-            <div class="guides_instructor_name">Светозар</div>
-            <div class="guides_instructor_desc">Психолог, главный организатор интенсива «Перезагрузка» и «Пробуждение»</div>
-          </div>
-        </div>
 
-        <div class="guides_block_bottom">
-          <div class="guides_instructor">
-            <img class="guides_instructor_img" src="img/Дарья.png" alt="Инструктор Дарья">
-            <img class="guides_instructor_fon" src="img/Фон 4.png" alt="Фон">
-            <div class="guides_instructor_name">Дарья</div>
-            <div class="guides_instructor_desc">Инструктор проводник пешеходного туризма по Крыму и Кавказу. Специалист в рекреационно-оздоровительных мероприятиях.</div>
-          </div>
-          <div class="guides_instructor">
-            <img class="guides_instructor_img" src="img/Роман.png" alt="Инструктор Роман">
-            <img class="guides_instructor_fon" src="img/Фон 4.png" alt="Фон">
-            <div class="guides_instructor_name">Роман</div>
-            <div class="guides_instructor_desc">Инструктор проводник пешеходного туризма по Крыму и Кавказу. Опытный альпинист и организатор туров восхождений на Эльбрус и треков к базовому лагерю Эвереста.</div>
+          <div class="guides_block_bottom">
+            <div class="guides_instructor">
+              <img
+                class="guides_instructor_img"
+                src="img/Дарья.png"
+                alt="Инструктор Дарья"
+              />
+              <img
+                class="guides_instructor_fon"
+                src="img/Фон 4.png"
+                alt="Фон"
+              />
+              <div class="guides_instructor_name">Дарья</div>
+              <div class="guides_instructor_desc">
+                Инструктор проводник пешеходного туризма по Крыму и Кавказу.
+                Специалист в рекреационно-оздоровительных мероприятиях.
+              </div>
+            </div>
+            <div class="guides_instructor">
+              <img
+                class="guides_instructor_img"
+                src="img/Роман.png"
+                alt="Инструктор Роман"
+              />
+              <img
+                class="guides_instructor_fon"
+                src="img/Фон 4.png"
+                alt="Фон"
+              />
+              <div class="guides_instructor_name">Роман</div>
+              <div class="guides_instructor_desc">
+                Инструктор проводник пешеходного туризма по Крыму и Кавказу.
+                Опытный альпинист и организатор туров восхождений на Эльбрус и
+                треков к базовому лагерю Эвереста.
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <div class="guides_svg_1"></div>
-  <div class="guides_svg_2"></div>
-  <div class="guides_fon"></div>
-  <div class="guides_svg_5"></div>
+    </section>
+    <div class="guides_svg_1"></div>
+    <div class="guides_svg_2"></div>
+    <div class="guides_fon"></div>
+    <div class="guides_svg_5"></div>
 
-  <!-- Наши заслуги -->
-<section class="merits">
-  <div class="container">
-    <div class="merits_title">Наши заслуги</div>
-    <div class="merits_block">
-      <div class="merits_aside_top">
-        <div class="merits_aside_wrap">
-          <img src="img/иконка 1.png" alt="иконка диплом">
-          <div class="merits_aside_wrap_text">Высшее образование в сфере спортивного туризма, предоставляющие право на ведения профессион. деятельности в данной сфере,<a href=""> просмотр документов.</a></div>
-        </div>
-        <div class="merits_aside_wrap">
-          <img src="img/иконка 2.png" alt="иконка диплом">
-          <div class="merits_aside_wrap_text">Дипломы с присвоением квалификации: инструктор проводник, сопровождение туристов при занятиях пешеходным туризмом,<a href=""> просмотр документов.</a></div>
+    <!-- Наши заслуги -->
+    <section class="merits">
+      <div class="container">
+        <div class="merits_title">Наши заслуги</div>
+        <div class="merits_block">
+          <div class="merits_aside_top">
+            <div class="merits_aside_wrap">
+              <img src="img/иконка 1.png" alt="иконка диплом" />
+              <div class="merits_aside_wrap_text">
+                Высшее образование в сфере спортивного туризма, предоставляющие
+                право на ведения профессион. деятельности в данной сфере,<a
+                  href=""
+                >
+                  просмотр документов.</a
+                >
+              </div>
+            </div>
+            <div class="merits_aside_wrap">
+              <img src="img/иконка 2.png" alt="иконка диплом" />
+              <div class="merits_aside_wrap_text">
+                Дипломы с присвоением квалификации: инструктор проводник,
+                сопровождение туристов при занятиях пешеходным туризмом,<a
+                  href=""
+                >
+                  просмотр документов.</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="merits_aside_bottom">
+            <div class="merits_aside_wrap">
+              <img
+                class="merits_aside_wrap_icon_black"
+                src="img/иконка 3.png"
+                alt="иконка диплом"
+              />
+              <div class="merits_aside_wrap_text_black">
+                Пятикратные восходители на самую высокую гору Европы -
+                <span> Эльбрус (5642м).</span> Участники восхождения на гору
+                <span>Казбек (5033м).</span> Участники восхождения на самую
+                высокую гору Алтая - <span> Белуху (4506м).</span>
+              </div>
+            </div>
+            <div class="merits_aside_wrap">
+              <img src="img/иконка 4.png" alt="иконка диплом" />
+              <div class="merits_aside_wrap_text">
+                Наши гиды имеют <a href=""> сертификаты и грамоты</a> по
+                спортивному туризму, являются участниками многочисленных
+                соревнований по спортивному туризму, ориентированию и т.,
+                принимали участие в судействе различных соревнований.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="merits_aside_bottom">
-        <div class="merits_aside_wrap">
-          <img class="merits_aside_wrap_icon_black" src="img/иконка 3.png" alt="иконка диплом">
-          <div class="merits_aside_wrap_text_black">Пятикратные восходители на самую высокую гору Европы - <span> Эльбрус (5642м).</span>
-            Участники восхождения на гору <span>Казбек (5033м).</span>  Участники восхождения на самую высокую гору Алтая - <span> Белуху (4506м).</span></div>
-        </div>
-        <div class="merits_aside_wrap">
-          <img src="img/иконка 4.png" alt="иконка диплом">
-          <div class="merits_aside_wrap_text">Наши гиды имеют <a href=""> сертификаты и грамоты</a> по спортивному туризму, являются участниками многочисленных  соревнований по спортивному туризму, ориентированию и т., принимали участие в судействе различных соревнований.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- ---------------  -->
 
@@ -245,7 +399,6 @@
     <footer>
       <div class="footer_svg"></div>
       <div class="footer">
-
         <!-- Логотип -->
         <div class="footer_div">
           <div class="img_logo">
@@ -253,8 +406,8 @@
           </div>
 
           <p class="footer_p" style="margin-top: 20px">
-            Крымская, туристическая организация, для любителей активного отдыха на
-            природе
+            Крымская, туристическая организация, для любителей активного отдыха
+            на природе
           </p>
           <div class="img_decor" style="margin-top: 20px">
             <img
@@ -275,14 +428,16 @@
 
           <a class="footer_h4" href="#">Кавказ</a>
           <li><a class="footer_a" href="#">Восхождение на&nbsp;Эльбрус</a></li>
-          <li><a class="footer_a" href="#">Трекинг по&nbsp;Адыгее</a></li>
-          <li><a class="footer_a" href="#">Трекинг по&nbsp;Архызу</a></li>
-          <li><a class="footer_a" href="#">Трекинг по&nbsp;Асетии</a></li>
+          <li><a class="footer_a" href="#">Треккинг по&nbsp;Адыгее</a></li>
+          <li><a class="footer_a" href="#">Треккинг по&nbsp;Архызу</a></li>
+          <li><a class="footer_a" href="#">Треккинг по&nbsp;Асетии</a></li>
         </div>
         <!-- Меню -->
         <div class="footer_div_menu">
           <h3 class="footer_h3">Меню</h3>
-          <a class="footer_h4" href="index.html" style="margin-top: 20px">Главная</a>
+          <a class="footer_h4" href="index.html" style="margin-top: 20px"
+            >Главная</a
+          >
           <li><a class="footer_a" href="schedule.html">Расписание</a></li>
           <li><a class="footer_a" href="reminder.html">Памятка туристу</a></li>
           <li><a class="footer_a" href="about.html">О&nbsp;нас</a></li>
@@ -300,8 +455,9 @@
           </div>
           <div>
             <p class="footer_p">
-              <b>Подпишитесь</b> на&nbsp;нас в&nbsp;социальных сетях и&nbsp;будьте
-              в&nbsp;курсе всех планирующихся мероприятий в&nbsp;Мальстриме.
+              <b>Подпишитесь</b> на&nbsp;нас в&nbsp;социальных сетях
+              и&nbsp;будьте в&nbsp;курсе всех планирующихся мероприятий
+              в&nbsp;Мальстриме.
             </p>
           </div>
           <div class="footer_div_socseti">

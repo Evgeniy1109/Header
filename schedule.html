@@ -67,12 +67,10 @@
             </div>
           </div>
           <div class="header_icon">
-            <a href=""
-              ><img
-                class="header_icon_telephone"
+            <img class="header_icon_telephone" onmouseover="icon_over()" onmouseout="icon_out()"
                 src="img/tube  white.svg"
                 alt="telephone"
-            /></a>
+            />
             <a href="
             http://vk.com/malstrim" target="_blank"
               ><img class="header_icon_vk" src="img/VK white.svg" alt="vk"
@@ -88,33 +86,52 @@
             <a href="#" onclick="show()">В поход !</a>
           </div>
         </div>
+        <!-- Модальное окно с телефонами -->
+<div class="modal_telephone_window modal_telephone_close">
+  <div class="modal_telephone_wrap">
+<div class="modal_telephone">
+  <div class="modal_telephone_1">
+      <img src="img/tel.svg" alt="">
+      <p>+7(978) 798-58-72</p>
+  </div>
+  <div class="modal_telephone_1">
+      <img src="img/tel.svg" alt="">
+      <p>+7(978) 529-35-87</p>
+  </div>
+</div>
+</div>
+</div>
+<!-- --------------------------  -->
         <div class="modal_form_active modal_close">
           <div class="modal_window_window">
           <div class="modal_window">
             <div class="modal_img_1" >
-              <img src="img/модальное окно.png" alt="">
+              <img class="modal_window_img" src="img/модальное окно 2.png" alt="">
               <div class="modal_form_p">
-                <p>Отдыхай правильно</p>
+                <p>Мы ждет тебя в нашу команду!</p>
               </div>
             </div>
-            <div class="modal_img_2">
+            <!-- <div class="modal_img_2">
               <img src="img/+.svg" onclick="show()"alt="">
-            </div>
+            </div> -->
           <div class="modal_form">
             <form action="">
+              <div class="modal_img_2">
+                <img src="img/+.svg" onclick="show()"alt="">
+              </div>
               <p class="modal_form_text">Отправьте заявку и мы перезвоним Вам в ближайшее время и поможем подобрать поход</p>
               <div class="modal_application">
                 <img src="img/туристМод.svg" alt="турист">
                 <div class="modal_application_label">
                 <p><label for="">Ваше имя:</label></p>
-                <input class="modal_application_input" type="text" name="name">
+                <input class="modal_application_input" type="text" name="name" placeholder="Введите ваше имя">
               </div>
               </div>
               <div class="modal_application">
                 <img src="img/телефон.svg" alt="телефон">
                 <div class="modal_application_label">
                 <p><label for="">Телефон:</label></p>
-                <input class="modal_application_input" type="text" name="name">
+                <input class="modal_application_input" type="text" name="name" placeholder ="+ 7 (978) 798-58-72">
               </div>
               </div>
               <div class="modal_application_checkbox">
@@ -128,6 +145,25 @@
         </div>
     </div>
       </div>
+
+      <!-- Модальное окно с телефонами -->
+      <div class="modal_telephone_window modal_telephone_close">
+        <div class="modal_telephone_wrap">
+    <div class="modal_telephone">
+        <div class="modal_telephone_1">
+            <img src="img/tel.svg" alt="">
+            <p>+7(978) 798-58-72</p>
+        </div>
+        <div class="modal_telephone_1">
+            <img src="img/tel.svg" alt="">
+            <p>+7(978) 529-35-87</p>
+        </div>
+    </div>
+</div>
+</div>
+      <!-- --------------------------  -->
+
+
     </header>
 
     <!-- footer  -->
@@ -164,9 +200,9 @@
 
           <a class="footer_h4" href="#">Кавказ</a>
           <li><a class="footer_a" href="#">Восхождение на&nbsp;Эльбрус</a></li>
-          <li><a class="footer_a" href="#">Трекинг по&nbsp;Адыгее</a></li>
-          <li><a class="footer_a" href="#">Трекинг по&nbsp;Архызу</a></li>
-          <li><a class="footer_a" href="#">Трекинг по&nbsp;Асетии</a></li>
+          <li><a class="footer_a" href="#">Треккинг по&nbsp;Адыгее</a></li>
+          <li><a class="footer_a" href="#">Треккинг по&nbsp;Архызу</a></li>
+          <li><a class="footer_a" href="#">Треккинг по&nbsp;Асетии</a></li>
         </div>
         <!-- Меню -->
         <div class="footer_div_menu">

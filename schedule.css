@@ -48,6 +48,9 @@ h2{
 .header_icon_vk:active, .header_icon_telegram:active{
     background-color: #E79814;
 }
+.modal_telephone{
+    background-color: #ffca3c;
+}
 
 
 
